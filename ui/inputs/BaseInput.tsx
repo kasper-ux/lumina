@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> { }
+type InputProps = {}
 
 export const BaseInput: React.FC<InputProps> = (props: InputProps) => {
 

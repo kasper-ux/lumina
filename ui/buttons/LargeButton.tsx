@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export interface LargeButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> { }
+export type LargeButtonProps = {}
 
 export const LargeButton: React.FC<LargeButtonProps> = (props: LargeButtonProps) => {
 	return (
