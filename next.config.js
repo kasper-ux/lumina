@@ -6,5 +6,5 @@ const nextConfig = {
 		styledComponents: true
 	}
 }
-
-module.exports = nextConfig
+const withTM = require('next-transpile-modules')(['lumina-ux']);
+module.exports = withTM(nextConfig);

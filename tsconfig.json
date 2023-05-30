@@ -20,7 +20,7 @@
 		"incremental": true,
 		"typeRoots": [
 			"./node_modules/@types",
-			"types"
+			"@types"
 		],
 		"paths": {
 			"@ui/*": [
