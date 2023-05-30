@@ -1,4 +1,6 @@
-import { ReactNode } from 'react';
-import { LargeButtonProps } from 'ui/buttons/LargeButton';
+import { LargeButtonProps } from "@ui/buttons";
 
-export declare const LargeButton: React.FunctionComponent<LargeButtonProps>;
+declare module 'lumina-ux' {
+	export { LargeButtonProps };
+	export const LargeButton: React.FC<LargeButtonProps>;
+}
