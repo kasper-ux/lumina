@@ -22,7 +22,7 @@
 		"eslint-config-next": "^13.4.4",
 		"typescript": "5.0.4"
 	},
-	"description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+	"description": "A NextJS components package for a great user experience.",
 	"main": "next.config.js",
 	"repository": {
 		"type": "git",
