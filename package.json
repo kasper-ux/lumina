@@ -1,11 +1,12 @@
 {
 	"name": "lumina-ux",
-	"version": "0.1.20",
+	"version": "0.1.21",
 	"types": "dist/@types/index.d.ts",
 	"private": false,
 	"scripts": {
 		"dev": "next dev",
 		"start": "next start",
+		"build": "next build && cp index.js dist/index.js",
 		"lint": "next lint",
 		"pub": "npm version patch --force && npm publish"
 	},
@@ -23,7 +24,7 @@
 		"typescript": "5.0.4"
 	},
 	"description": "A NextJS components package for a great user experience.",
-	"main": "index.ts",
+	"main": "next.config.js",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/kasper-ux/lumina.git"
