@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "next dev",
 		"start": "next start",
-		"build": "next build && cp index.js dist/index.js",
+		"build": "next build",
 		"lint": "next lint",
 		"pub": "npm version patch --force && npm publish"
 	},

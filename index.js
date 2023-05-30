@@ -1,4 +1,4 @@
 
 import { LargeButton } from './ui'
 
-export { LargeButton };
+export default LargeButton;
