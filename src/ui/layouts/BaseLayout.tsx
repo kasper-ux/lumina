@@ -4,7 +4,7 @@ type Props = {
 	children: any;
 }
 
-export const BaseLayout = ({ children }: Props) => {
+export const BaseLayout: React.FC<Props> = ({ children }: Props) => {
 
 	return (
 		<Section>
