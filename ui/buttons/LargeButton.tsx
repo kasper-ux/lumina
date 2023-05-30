@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 
-export type LargeButtonProps = {}
+export type LargeButtonProps = {
+	children?: any;
+}
 
-export const LargeButton: React.FC<LargeButtonProps> = (props: LargeButtonProps) => {
+export const LargeButton = ({ children }: LargeButtonProps) => {
 	return (
-		<Button {...props} />
+		<Button>
+			{children}
+		</Button>
 	);
 }
 
