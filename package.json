@@ -5,7 +5,7 @@
 	"private": false,
 	"scripts": {
 		"dev": "next dev",
-		"build": "npm run build:types && next build",
+		"build": "cp -R ./@types ./dist/@types && next build",
 		"start": "next start",
 		"lint": "next lint",
 		"pub": "npm version patch --force && npm publish"
