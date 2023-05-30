@@ -1,6 +1,6 @@
 {
 	"name": "lumina-ux",
-	"version": "0.1.12",
+	"version": "0.1.13",
 	"types": "dist/@types/index.d.ts",
 	"private": false,
 	"scripts": {
