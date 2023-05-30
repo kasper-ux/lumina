@@ -24,7 +24,7 @@
 		"typescript": "5.0.4"
 	},
 	"description": "A NextJS components package for a great user experience.",
-	"main": "next.config.js",
+	"main": "./index.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/kasper-ux/lumina.git"

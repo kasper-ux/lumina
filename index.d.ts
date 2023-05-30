@@ -1,4 +1,4 @@
-import { LargeButtonProps } from "@ui/buttons";
+//declare function myFunction(param1: string, param2: string): number;
 
 declare module 'lumina-ux' {
 	export { LargeButtonProps };
