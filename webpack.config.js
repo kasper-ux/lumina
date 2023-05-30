@@ -1,12 +1,10 @@
 module.exports = {
-	module: {
-		rules: [{
-			loader: 'babel-loader',
-			test: /\.ts$|tsx|js/,
-			exclude: /node_modules/,
-			query: {
-				presets: ['es2015']
-			}
-		}]
+	test: /\.m?ts$|\.tsx?$/,
+	// exclude: /node_modules/,
+	use: {
+		loader: "ts-loader",
+		options: {
+			onlyCompileBundledFiles: true,
+		}
 	},
 }
