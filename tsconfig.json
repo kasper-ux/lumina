@@ -24,17 +24,8 @@
 		],
 		"paths": {
 			"@ui/*": [
-				"src/ui/*"
+				"./src/ui/*"
 			],
-			"@features/*": [
-				"./features/*"
-			],
-			"@shared/*": [
-				"./shared/*"
-			],
-			"@utils/*": [
-				"./utils/*"
-			]
 		}
 	},
 	"include": [
